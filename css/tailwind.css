@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html,
+  body {
+    @apply dark:bg-trueGray-900;
+    padding: 0 2rem 0 2rem;
+  }
+}
+@font-face {
+  font-family: bnazanin;
+  src: local("bnazanin"), url(/fonts/bnazanin.ttf) format("truetype");
+}
+@font-face {
+  font-family: Iranian-Sans;
+  src: local("Iranian-Sans"), url(/fonts/Iranian-Sans.ttf) format("truetype");
+}
+@font-face {
+  font-family: Shabnam;
+  src: local("Shabnam"), url(/fonts/Shabnam.ttf) format("truetype");
+}
+@font-face {
+  font-family: Sahel;
+  src: local("Sahel"), url(/fonts/Sahel.ttf) format("truetype");
+}
+@font-face {
+  font-family: Vazirmatn;
+  src: local("Vazirmatn"), url(/fonts/Vazirmatn.ttf) format("truetype");
+}
+@font-face {
+  font-family: Gandom;
+  src: local("Gandom"), url(/fonts/Gandom.ttf) format("truetype");
+}
+@font-face {
+  font-family: IranSans;
+  src: local("IranSans"), url(/fonts/IranSans.ttf) format("truetype");
+}
+* {
+  font-family: "Montserrat", Sahel;
+}
